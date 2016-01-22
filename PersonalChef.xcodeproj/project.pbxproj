@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351401611C52B6B500966040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351401601C52B6B500966040 /* AppDelegate.swift */; };
+		351401631C52B6B500966040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351401621C52B6B500966040 /* ViewController.swift */; };
+		351401661C52B6B500966040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351401641C52B6B500966040 /* Main.storyboard */; };
+		351401681C52B6B500966040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351401671C52B6B500966040 /* Assets.xcassets */; };
+		3514016B1C52B6B500966040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351401691C52B6B500966040 /* LaunchScreen.storyboard */; };
+		351401761C52B6B500966040 /* PersonalChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351401751C52B6B500966040 /* PersonalChefTests.swift */; };
+		351401811C52B6B500966040 /* PersonalChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351401801C52B6B500966040 /* PersonalChefUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351401721C52B6B500966040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351401551C52B6B500966040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3514015C1C52B6B500966040;
+			remoteInfo = PersonalChef;
+		};
+		3514017D1C52B6B500966040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351401551C52B6B500966040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3514015C1C52B6B500966040;
+			remoteInfo = PersonalChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3514015D1C52B6B500966040 /* PersonalChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351401601C52B6B500966040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351401621C52B6B500966040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351401651C52B6B500966040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351401671C52B6B500966040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3514016A1C52B6B500966040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3514016C1C52B6B500966040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351401711C52B6B500966040 /* PersonalChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351401751C52B6B500966040 /* PersonalChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalChefTests.swift; sourceTree = "<group>"; };
+		351401771C52B6B500966040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3514017C1C52B6B500966040 /* PersonalChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351401801C52B6B500966040 /* PersonalChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalChefUITests.swift; sourceTree = "<group>"; };
+		351401821C52B6B500966040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3514015A1C52B6B500966040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3514016E1C52B6B500966040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351401791C52B6B500966040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351401541C52B6B500966040 = {
+			isa = PBXGroup;
+			children = (
+				3514015F1C52B6B500966040 /* PersonalChef */,
+				351401741C52B6B500966040 /* PersonalChefTests */,
+				3514017F1C52B6B500966040 /* PersonalChefUITests */,
+				3514015E1C52B6B500966040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3514015E1C52B6B500966040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3514015D1C52B6B500966040 /* PersonalChef.app */,
+				351401711C52B6B500966040 /* PersonalChefTests.xctest */,
+				3514017C1C52B6B500966040 /* PersonalChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3514015F1C52B6B500966040 /* PersonalChef */ = {
+			isa = PBXGroup;
+			children = (
+				351401601C52B6B500966040 /* AppDelegate.swift */,
+				351401621C52B6B500966040 /* ViewController.swift */,
+				351401641C52B6B500966040 /* Main.storyboard */,
+				351401671C52B6B500966040 /* Assets.xcassets */,
+				351401691C52B6B500966040 /* LaunchScreen.storyboard */,
+				3514016C1C52B6B500966040 /* Info.plist */,
+			);
+			path = PersonalChef;
+			sourceTree = "<group>";
+		};
+		351401741C52B6B500966040 /* PersonalChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				351401751C52B6B500966040 /* PersonalChefTests.swift */,
+				351401771C52B6B500966040 /* Info.plist */,
+			);
+			path = PersonalChefTests;
+			sourceTree = "<group>";
+		};
+		3514017F1C52B6B500966040 /* PersonalChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				351401801C52B6B500966040 /* PersonalChefUITests.swift */,
+				351401821C52B6B500966040 /* Info.plist */,
+			);
+			path = PersonalChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3514015C1C52B6B500966040 /* PersonalChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351401851C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChef" */;
+			buildPhases = (
+				351401591C52B6B500966040 /* Sources */,
+				3514015A1C52B6B500966040 /* Frameworks */,
+				3514015B1C52B6B500966040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalChef;
+			productName = PersonalChef;
+			productReference = 3514015D1C52B6B500966040 /* PersonalChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351401701C52B6B500966040 /* PersonalChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351401881C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChefTests" */;
+			buildPhases = (
+				3514016D1C52B6B500966040 /* Sources */,
+				3514016E1C52B6B500966040 /* Frameworks */,
+				3514016F1C52B6B500966040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351401731C52B6B500966040 /* PBXTargetDependency */,
+			);
+			name = PersonalChefTests;
+			productName = PersonalChefTests;
+			productReference = 351401711C52B6B500966040 /* PersonalChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3514017B1C52B6B500966040 /* PersonalChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3514018B1C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChefUITests" */;
+			buildPhases = (
+				351401781C52B6B500966040 /* Sources */,
+				351401791C52B6B500966040 /* Frameworks */,
+				3514017A1C52B6B500966040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3514017E1C52B6B500966040 /* PBXTargetDependency */,
+			);
+			name = PersonalChefUITests;
+			productName = PersonalChefUITests;
+			productReference = 3514017C1C52B6B500966040 /* PersonalChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351401551C52B6B500966040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Abdelrazek Aly";
+				TargetAttributes = {
+					3514015C1C52B6B500966040 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					351401701C52B6B500966040 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3514015C1C52B6B500966040;
+					};
+					3514017B1C52B6B500966040 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3514015C1C52B6B500966040;
+					};
+				};
+			};
+			buildConfigurationList = 351401581C52B6B500966040 /* Build configuration list for PBXProject "PersonalChef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351401541C52B6B500966040;
+			productRefGroup = 3514015E1C52B6B500966040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3514015C1C52B6B500966040 /* PersonalChef */,
+				351401701C52B6B500966040 /* PersonalChefTests */,
+				3514017B1C52B6B500966040 /* PersonalChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3514015B1C52B6B500966040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3514016B1C52B6B500966040 /* LaunchScreen.storyboard in Resources */,
+				351401681C52B6B500966040 /* Assets.xcassets in Resources */,
+				351401661C52B6B500966040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3514016F1C52B6B500966040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3514017A1C52B6B500966040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351401591C52B6B500966040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351401631C52B6B500966040 /* ViewController.swift in Sources */,
+				351401611C52B6B500966040 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3514016D1C52B6B500966040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351401761C52B6B500966040 /* PersonalChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351401781C52B6B500966040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351401811C52B6B500966040 /* PersonalChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351401731C52B6B500966040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3514015C1C52B6B500966040 /* PersonalChef */;
+			targetProxy = 351401721C52B6B500966040 /* PBXContainerItemProxy */;
+		};
+		3514017E1C52B6B500966040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3514015C1C52B6B500966040 /* PersonalChef */;
+			targetProxy = 3514017D1C52B6B500966040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351401641C52B6B500966040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351401651C52B6B500966040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351401691C52B6B500966040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3514016A1C52B6B500966040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351401831C52B6B500966040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351401841C52B6B500966040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351401861C52B6B500966040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		351401871C52B6B500966040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		351401891C52B6B500966040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonalChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalChef.app/PersonalChef";
+			};
+			name = Debug;
+		};
+		3514018A1C52B6B500966040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersonalChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalChef.app/PersonalChef";
+			};
+			name = Release;
+		};
+		3514018C1C52B6B500966040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonalChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonalChef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3514018D1C52B6B500966040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersonalChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathon.PersonalChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersonalChef;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351401581C52B6B500966040 /* Build configuration list for PBXProject "PersonalChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351401831C52B6B500966040 /* Debug */,
+				351401841C52B6B500966040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351401851C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351401861C52B6B500966040 /* Debug */,
+				351401871C52B6B500966040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		351401881C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351401891C52B6B500966040 /* Debug */,
+				3514018A1C52B6B500966040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3514018B1C52B6B500966040 /* Build configuration list for PBXNativeTarget "PersonalChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3514018C1C52B6B500966040 /* Debug */,
+				3514018D1C52B6B500966040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351401551C52B6B500966040 /* Project object */;
+}
